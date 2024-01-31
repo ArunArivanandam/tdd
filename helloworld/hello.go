@@ -15,7 +15,7 @@ func main() {
 	fmt.Println(hello("Arun", "English"))
 }
 
-func hello(name string, language string) (prefix string) {
+func hello(name string, language string) string {
 	if name == "" {
 		name = "World"
 	}
